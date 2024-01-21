@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Playpen+Sans:wght@400;500;700&family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Playfair+Display:wght@400;700&family=Playpen+Sans:wght@400;500;700&family=Source+Sans+3&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +11,17 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+}
+
+#main-title {
+    font-family: 'Passion One', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 header {
@@ -58,7 +72,10 @@ section {
 }
 
 footer {
+    font-family: 'Playfair Display', serif;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px 0px;
+    font-weight: 700;
 }
